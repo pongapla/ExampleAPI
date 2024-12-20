@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project NET\\DPowerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|d:\\project net\\dpowerapi\\dpowerapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|solutionrelative:dpowerapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|d:\\project net\\dpowerapi\\dpowerapi\\controllers\\assignpermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|solutionrelative:dpowerapi\\controllers\\assignpermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|d:\\project net\\dpowerapi\\dpowerapi\\controllers\\configmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|solutionrelative:dpowerapi\\controllers\\configmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|d:\\project net\\dpowerapi\\dpowerapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FE968F-EC2A-4385-A3E5-8B2010C1D62C}|DPowerAPI\\DPowerAPI.csproj|solutionrelative:dpowerapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DPowerAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DPowerAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv24AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:18:55.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignPermissionsController.cs",
+              "DocumentMoniker": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\AssignPermissionsController.cs",
+              "RelativeDocumentMoniker": "DPowerAPI\\Controllers\\AssignPermissionsController.cs",
+              "ToolTip": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\AssignPermissionsController.cs",
+              "RelativeToolTip": "DPowerAPI\\Controllers\\AssignPermissionsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:44:26.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigMenuController.cs",
+              "DocumentMoniker": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\ConfigMenuController.cs",
+              "RelativeDocumentMoniker": "DPowerAPI\\Controllers\\ConfigMenuController.cs",
+              "ToolTip": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\ConfigMenuController.cs",
+              "RelativeToolTip": "DPowerAPI\\Controllers\\ConfigMenuController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:54:56.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "DPowerAPI\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\Project NET\\DPowerAPI\\DPowerAPI\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "DPowerAPI\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:28:25.77Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
