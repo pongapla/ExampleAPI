@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DPowerAPI.models;
+using DPowerAPI.Models;
 using DPowerAPI.Data;
 using Microsoft.AspNetCore.Authorization;
 

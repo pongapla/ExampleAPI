@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using DPowerAPI.models;
+using DPowerAPI.Models;
 
 namespace DPowerAPI.Controllers;
 

@@ -1,5 +1,5 @@
 ﻿using DPowerAPI.Data;
-using DPowerAPI.models;
+using DPowerAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
@@ -95,7 +95,7 @@ public class AssignPermissionsController : ControllerBase
             _context.UserMenu.RemoveRange(existingUserMenus);
 
             
-            foreach (var menuId in request?.MenuIDs)
+            foreach (var menuId in request.MenuIDs!)
             {
                 var userMenu = new UserMenu
                 {
@@ -105,7 +105,6 @@ public class AssignPermissionsController : ControllerBase
                 _context.UserMenu.Add(userMenu);
             }
 
-            // บันทึกการเปลี่ยนแปลงลงฐานข้อมูล
             await _context.SaveChangesAsync();
             await transaction.CommitAsync();
 

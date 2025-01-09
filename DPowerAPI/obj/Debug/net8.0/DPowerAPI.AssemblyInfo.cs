@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DPowerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cc9589785fbc6b1dc834ff74a7067b09133f534")]
 [assembly: System.Reflection.AssemblyProductAttribute("DPowerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DPowerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

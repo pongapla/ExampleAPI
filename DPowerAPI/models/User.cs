@@ -1,5 +1,5 @@
 ﻿
-namespace DPowerAPI.models
+namespace DPowerAPI.Models
 {
     public class User
     {

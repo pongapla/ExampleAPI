@@ -754,3 +754,4 @@ D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\win-x64\refint\DPowerAPI.d
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\win-x64\DPowerAPI.pdb
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\win-x64\DPowerAPI.genruntimeconfig.cache
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\win-x64\ref\DPowerAPI.dll
+D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\win-x64\DPowerAPI.sourcelink.json

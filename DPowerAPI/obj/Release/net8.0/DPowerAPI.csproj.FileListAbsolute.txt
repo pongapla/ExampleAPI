@@ -535,10 +535,6 @@ D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\DPowerAPI.pdb
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Azure.Core.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Azure.Identity.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Humanizer.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.Web.Cors.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.Net.Http.Formatting.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.Web.Http.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.Web.Http.Cors.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -559,7 +555,6 @@ D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.DiaSymReader.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.Extensions.Caching.Memory.dll
@@ -590,7 +585,6 @@ D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.VisualStudio.Web
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Mono.TextTemplating.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Newtonsoft.Json.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Newtonsoft.Json.Bson.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\NuGet.Common.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\NuGet.Configuration.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\NuGet.DependencyResolver.Core.dll
@@ -763,8 +757,6 @@ D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win-arm\native\Mi
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
@@ -789,3 +781,16 @@ D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\refint\DPowerAPI.dll
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\DPowerAPI.pdb
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\DPowerAPI.genruntimeconfig.cache
 D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\ref\DPowerAPI.dll
+D:\Project NET\DPowerAPI\DPowerAPI\obj\Release\net8.0\DPowerAPI.sourcelink.json
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\EPPlus.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\EPPlus.Interfaces.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\EPPlus.System.Drawing.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\OfficeOpenXml.Core.ExcelPackage.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.IO.Packaging.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Project NET\DPowerAPI\DPowerAPI\bin\Release\net8.0\System.ClientModel.dll

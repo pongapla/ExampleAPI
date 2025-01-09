@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace DPowerAPI.models;
+namespace DPowerAPI.Models;
 
 public class UserRoles
 {

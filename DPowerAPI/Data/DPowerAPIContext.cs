@@ -1,5 +1,5 @@
 ﻿
-using DPowerAPI.models;
+using DPowerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DPowerAPI.Data
@@ -10,16 +10,18 @@ namespace DPowerAPI.Data
             : base(options)
         {
         }
-
-        public DbSet<DPowerAPI.models.Menu> Menu { get; set; } = default!;
-        public DbSet<DPowerAPI.models.UserMenu> UserMenu { get; set; } = default!;
-        public DbSet<DPowerAPI.models.RolePermissions> RolePermissions { get; set; } = default!;
-        public DbSet<DPowerAPI.models.UserRoles> UserRoles { get; set; } = default!;
-        public DbSet<DPowerAPI.models.Permissions> Permissions { get; set; } = default!;
-        public DbSet<DPowerAPI.models.Roles> Roles { get; set; } = default!;
-        public DbSet<DPowerAPI.models.User> User{ get; set; } = default!;
-        public DbSet<DPowerAPI.models.BalanceCustomer> BalanceCustomer { get; set; } = default!;
-        public DbSet<DPowerAPI.models.BalanceInventory> BalanceInventory { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.InventorySummary> InventorySummaries { get; set; }
+        public DbSet<DPowerAPI.Models.Products> Products { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.Colors> Colors { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.Menu> Menu { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.UserMenu> UserMenu { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.RolePermissions> RolePermissions { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.UserRoles> UserRoles { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.Permissions> Permissions { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.Roles> Roles { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.User> User{ get; set; } = default!;
+        public DbSet<DPowerAPI.Models.BalanceCustomer> BalanceCustomer { get; set; } = default!;
+        public DbSet<DPowerAPI.Models.BalanceInventory> BalanceInventory { get; set; } = default!;
         public async Task CallspGetBalanceCustomer()
         {
             // เรียกใช้ Stored Procedure โดยไม่ต้องการข้อมูลผลลัพธ์
@@ -33,9 +35,11 @@ namespace DPowerAPI.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Set name tatble in models
-            modelBuilder.Entity<DPowerAPI.models.BalanceCustomer>().ToTable("TEM_BALANCE_CUSTOMER");
-            modelBuilder.Entity<DPowerAPI.models.BalanceInventory>().ToTable("TEM_INVENTORY");
+            // Set name tatble in Models
+            modelBuilder.Entity<DPowerAPI.Models.BalanceCustomer>().ToTable("TEM_BALANCE_CUSTOMER");
+            modelBuilder.Entity<DPowerAPI.Models.BalanceInventory>().ToTable("TEM_INVENTORY");
+            modelBuilder.Entity<DPowerAPI.Models.InventorySummary>().HasNoKey();
+            modelBuilder.Entity<DPowerAPI.Models.InventorySummary>().ToView("vw_InventorySummary");
 
             modelBuilder.Entity<RolePermissions>()
                 .HasKey(rp => new { rp.RoleId, rp.PermissionId });
@@ -82,7 +86,14 @@ namespace DPowerAPI.Data
                 .WithMany()
                 .HasForeignKey(um => um.MenuId);
 
+
+            modelBuilder.Entity<Products>()
+                .HasOne(p => p.Color)
+                .WithMany()
+                .HasForeignKey(p => p.Color_ID)
+                .OnDelete(DeleteBehavior.SetNull);
+
         }
-        
+
     }
 }

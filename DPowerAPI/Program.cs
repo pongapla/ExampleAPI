@@ -1,6 +1,6 @@
 
 using DPowerAPI.Data;
-using DPowerAPI.models;
+using DPowerAPI.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +9,10 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DPowerAPIContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DPowerAPIContext") ?? throw new InvalidOperationException("Connection string 'DPowerAPIContext' not found.")));
+
+builder.Services.AddDbContext<M5LDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("M5LConnectionString") ??
+        throw new InvalidOperationException("Connection string 'M5LConnectionString' not found.")));
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
@@ -32,7 +36,13 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
-
+//builder.WebHost.ConfigureKestrel(serverOptions =>
+//{
+//    serverOptions.Listen(IPAddress.Any, 443, listenOptions =>
+//    {
+//        listenOptions.UseHttps("C:/Users/Kittiphob.M/Documents/mycert.pfx", "DPower1234");
+//    });
+//});
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
@@ -47,15 +57,16 @@ builder.Services.AddCors(options =>
                             "https://203.154.60.148:53318",
                             "http://203.154.60.148:58915",
                             "https://localhost:7169")
-                            .AllowAnyOrigin()
-                            .AllowAnyHeader().AllowAnyMethod();
+                            .AllowAnyMethod()
+                            .AllowAnyHeader()
+                            .AllowCredentials();
     });
 });
 
 
 
 var app = builder.Build();
-
+app.UseHttpsRedirection();
 app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthentication();
